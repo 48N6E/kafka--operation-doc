@@ -1,5 +1,6 @@
 ## Purpose: To globally reduce the number of Kafka topic replicas to 1
-
+## version
+kafka-version: 2.13-2.7.0
 ### 1. list topic
 ```shell
 kafka-topics.sh --list --zookeeper zookeeper_addreess > /root/topic.txt
