@@ -1,5 +1,5 @@
 ### notice: 
-
+kafka-version: 2.13-2.7.0
 Expanding nodes will increase the throughput of the cluster, but it may not necessarily reduce the load.
 
 After expanding the node, you can choose whether to reassign the topic, but be aware that this may cause meaningless data movement.
